@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Cosplay Shop</title>
-  <link rel="stylesheet" href="style.css">
+<title>Cosplay World</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-  <h1>🔥 Cosplay Store</h1>
-  <p>Deviens ton personnage préféré</p>
+<div class="logo">COSPLAY WORLD</div>
+<nav>
+<a href="index.html">Accueil</a>
+<a href="shop.html">Boutique</a>
+<a href="support.html">Support</a>
+<a href="about.html">À propos</a>
+<a href="cart.html">Panier</a>
+</nav>
 </header>
 
-<section class="products">
-
-  <div class="product">
-    <img src="https://via.placeholder.com/200">
-    <h2>Costume Akatsuki</h2>
-    <p>25 000 FCFA</p>
-    <a href="https://wa.me/237XXXXXXXXX" target="_blank">Commander</a>
-  </div>
-
-  <div class="product">
-    <img src="https://via.placeholder.com/200">
-    <h2>Masque Tokyo Ghoul</h2>
-    <p>15 000 FCFA</p>
-    <a href="https://wa.me/237XXXXXXXXX" target="_blank">Commander</a>
-  </div>
-
+<section class="hero">
+<div>
+<h1>Bienvenue Cosplayers 🌍</h1>
+<p>Tout l’univers cosplay en un seul endroit</p>
+<a href="shop.html"><button>Explorer la boutique</button></a>
+</div>
 </section>
 
+<div class="container">
+<h2>🔥 Produits populaires</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://i.imgur.com/3ZQ3Z6K.jpg">
+<h3>Costume Ninja</h3>
+<p>$79</p>
+<button onclick="addToCart('Costume Ninja',79)">Ajouter</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/yQ9Z1ZQ.jpg">
+<h3>Katana Samouraï</h3>
+<p>$49</p>
+<button onclick="addToCart('Katana',49)">Ajouter</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/tXWwR9F.jpg">
+<h3>Perruque Anime</h3>
+<p>$25</p>
+<button onclick="addToCart('Perruque',25)">Ajouter</button>
+</div>
+
+</div>
+</div>
+
+<footer>© 2026 Cosplay World</footer>
+<script src="script.js"></script>
 </body>
 </html>
